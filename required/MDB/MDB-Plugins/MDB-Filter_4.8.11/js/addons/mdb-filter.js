@@ -10848,7 +10848,7 @@ var _gestureStartTime,
 						_applyCurrentZoomPan();
 						
 						_stopAnimation('zoomPan');
-						return;
+
 					}
 				}
 
@@ -13082,7 +13082,7 @@ var PhotoSwipeUI_Default =
 			// tap to close gallery
 			if(_options.tapToClose && (framework.hasClass(target, 'pswp__img') || _hasCloseClass(target)) ) {
 				pswp.close();
-				return;
+
 			}
 			
 		}

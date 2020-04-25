@@ -21,4 +21,3 @@ function preloaderFading() {
   $('body').removeAttr('aria-busy');
 }
 
-;
