@@ -1,5 +1,5 @@
 <?php
-include "required/config.php";
+require "required/header.php";
 echo'
 
 <body>
@@ -19,4 +19,3 @@ echo'
 </body>
 </html>
 ';
-exit();
