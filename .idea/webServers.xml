@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="396ffd47-0165-4e39-b4a4-4066bc183af2" name="Safe-Naz" url="http://andrewnas:8800/">
+        <fileTransfer rootFolder="/mnt/web/eveApp" accessType="SFTP" host="192.168.1.252" port="9222" sshConfigId="e934a1e9-0d7f-4ffd-a876-a8b8145a2462" sshConfig="admin@192.168.1.252:9222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

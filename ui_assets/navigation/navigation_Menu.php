@@ -20,16 +20,18 @@ echo'
         <!-- Side navigation links -->
         <li>
           <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect arrow-r active"><i class="sv-slim-icon fas fa-chevron-right"></i> Submit blog<i class="fas fa-angle-down rotate-icon"></i></a>
+            <li><a class="collapsible-header waves-effect arrow-r active"><i class="sv-slim-icon fas fa-chevron-right"></i> Character
+            <i class="fas fa-angle-down rotate-icon"></i></a>
               <div class="collapsible-body">
                 <ul>
-                  <li><a href="#" class="waves-effect active">
+                  <li>
+                    <a href="#" class="waves-effect active">
                     <span class="sv-slim"> SL </span>
-                    <span class="sv-normal">Submit listing</span></a>
+                    <span class="sv-normal">assests</span></a>
                   </li>
                   <li><a href="#" class="waves-effect">
                     <span class="sv-slim"> RF </span>
-                    <span class="sv-normal">Registration form</span></a>
+                    <span class="sv-normal">indy</span></a>
                   </li>
                 </ul>
               </div>

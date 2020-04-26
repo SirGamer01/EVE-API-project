@@ -1,6 +1,6 @@
 <?php
 
-//to do change btwteen content
+//todo change between content
 $i = 10;
 
 switch ($i){
