@@ -5,7 +5,8 @@
       <paths name="Local-Test">
         <serverdata>
           <mappings>
-            <mapping local="" web="" />
+            <mapping deploy="/web/eveapp" local="$PROJECT_DIR$" web="http://andrewnas:8800/eveapp/" />
+            <mapping local="" />
           </mappings>
         </serverdata>
       </paths>
