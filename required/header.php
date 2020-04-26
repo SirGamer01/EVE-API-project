@@ -36,5 +36,6 @@ echo'
 
   
 </head>
+</html>
 ';
 ?>

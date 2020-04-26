@@ -1,7 +1,10 @@
 <?php
 require "required/header.php";
-echo'
 
+include "ui_assets/navigation/navigation_TopNav.php";
+include "ui_assets/navigation/navigation_SideMenu.php";
+echo'
+<html>
 <body>
 
   <!-- Start your project here-->  
