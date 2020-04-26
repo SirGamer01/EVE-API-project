@@ -1,4 +1,6 @@
 <?php
+//file where all header content will; be collected
+
 echo'
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +34,7 @@ echo'
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script type="text/javascript" src="js/javaScript.js" ></script>
 
   
 </head>

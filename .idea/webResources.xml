@@ -5,7 +5,11 @@
       <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$" />
+            <path value="file://$PROJECT_DIR$/css" />
+            <path value="file://$PROJECT_DIR$/img" />
+            <path value="file://$PROJECT_DIR$/js" />
+            <path value="file://$PROJECT_DIR$/scss" />
+            <path value="file://$PROJECT_DIR$/mdb-addons" />
           </resourceRoots>
         </entryData>
       </entry>

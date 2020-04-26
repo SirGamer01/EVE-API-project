@@ -1,18 +1,6 @@
-.content {
-    min-height: 100vh;
-    height: auto;
-    transition: all 0.2s ease-in-out;
+.double-nav .breadcrumb-dn {
+    color: #fff;
 }
-
-.button-collapse {
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    z-index: 10;
-}
-
-@media(min-width: 1440px) {
-    .content {
-        padding-left: 250px;
-    }
+.side-nav.wide.slim .sn-ad-avatar-wrapper a span {
+    display: none;
 }

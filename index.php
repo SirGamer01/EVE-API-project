@@ -1,8 +1,8 @@
 <?php
 require "required/header.php";
 
-include "ui_assets/navigation/navigation_TopNav.php";
 include "ui_assets/navigation/navigation_SideMenu.php";
+
 echo'
 <html>
 <body>
