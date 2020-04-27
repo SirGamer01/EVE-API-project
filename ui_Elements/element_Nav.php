@@ -1,0 +1,157 @@
+<?php
+echo '
+<html lang="en">
+
+<body class="fixed-sn black-skin">
+
+<!--Main Navigation-->
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar double-nav">
+
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+            <a href="#" data-activates="slide-out" class="button-collapse">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Breadcrumb-->
+        <div class="breadcrumb-dn mr-auto">
+            <p>Material Design for Bootstrap</p>
+        </div>
+
+        <!-- Links -->
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item">
+                <a class="nav-link">
+                    <i class="fa fa-envelope"></i>
+                    <span class="clearfix d-none d-sm-inline-block">Contact</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">
+                    <i class="fa fa-gear"></i>
+                    <span class="clearfix d-none d-sm-inline-block">Settings</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                    <span class="clearfix d-none d-sm-inline-block">Account</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+    <!--/.Navbar-->
+
+    <!-- Sidebar navigation -->
+    <div id="slide-out" class="side-nav fixed sn-bg-5">
+        <ul class="custom-scrollbar">
+            <!-- Logo -->
+            <li class="logo-sn waves-effect">
+                <div class=" text-center">
+                    <a href="#" class="pl-0">
+                        <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="">
+                    </a>
+                </div>
+            </li>
+            <!--/. Logo -->
+            <!--Search Form-->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group md-form mt-0 pt-1 waves-light">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </li>
+            <!--/.Search Form-->
+            
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>
+                        Submit blog<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Submit listing</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Registration form</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i>
+                        Instruction<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">For bloggers</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">For authors</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i> About<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Introduction</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Monthly meetings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Contact
+                        me<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">FAQ</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Write a message</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">FAQ</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Write a message</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">FAQ</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Write a message</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">FAQ</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Write a message</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
+        </ul>
+        <div class="sidenav-bg rgba-blue-strong"></div>
+    </div>
+    <!--/. Sidebar navigation -->
+
+</header>
+<!--Main Navigation-->
+<main>
+
+';
+require "placeHolder.php";
+
+echo'
+
+</main>
+</body>
+</html>
+
+';
