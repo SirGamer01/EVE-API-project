@@ -3,11 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="910bf7cf-bbc6-406e-be11-a40100086a37" name="Local-Test" url="http://andrewnas:8800/">
-        <fileTransfer host="192.168.1.252" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
+        <fileTransfer rootFolder="/web/eveApp" host="192.168.1.252" port="21" />
       </webServer>
       <webServer id="396ffd47-0165-4e39-b4a4-4066bc183af2" name="Safe-Naz" url="http://andrewnas:8800/">
         <fileTransfer rootFolder="/mnt/web/eveApp" accessType="SFTP" host="192.168.1.252" port="9222" sshConfigId="e934a1e9-0d7f-4ffd-a876-a8b8145a2462" sshConfig="admin@192.168.1.252:9222 password">

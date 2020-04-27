@@ -27,4 +27,4 @@ jQuery(function ($) {
 function preloaderFading() {
   $('#mdb-preloader').fadeOut('slow');
   $('body').removeAttr('aria-busy');
-}
+};
