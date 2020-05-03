@@ -54,7 +54,7 @@ echo '
     <!--/.Navbar-->
 
     <!-- Sidebar navigation -->
-    <div id="slide-out" class="side-nav navbar-dark fixed sn-bg-5">
+    <div id="slide-out" class="side-nav navbar-dark fixed sn-bg-4">
         <ul class="custom-scrollbar">
             <!-- Logo -->
             <li class="logo-sn waves-effect">
