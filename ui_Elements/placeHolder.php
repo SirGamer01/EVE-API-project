@@ -1,12 +1,9 @@
 <?php
 $page = array("link-Skills","link-Character","link-Interactions","link-Pilot's-Services","link-Skins","link-History");
-require "./required/html_config.php";
-
 echo '
 
 <html lang="en">
     <body>
-    test
         <div class="container" style="padding-top: 50px; height: 5000px">
             
             <!-- Card -->
