@@ -19,4 +19,6 @@ body {
     background-color: #eee;
 }
 
-  
+.slide-out{
+    background-image: url("../img/tempLeftBanner.jpg");
+}

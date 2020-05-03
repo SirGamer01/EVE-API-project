@@ -19,7 +19,7 @@ echo '
 
         <!-- Breadcrumb-->
         <div class="breadcrumb-dn mr-auto">
-            <p>Material Design for Bootstrap</p>
+            <p>EVE-APP</p>
         </div>
 
         <!-- Links -->
@@ -54,13 +54,13 @@ echo '
     <!--/.Navbar-->
 
     <!-- Sidebar navigation -->
-    <div id="slide-out" class="side-nav fixed sn-bg-5">
+    <div id="slide-out" class="side-nav navbar-dark fixed sn-bg-5">
         <ul class="custom-scrollbar">
             <!-- Logo -->
             <li class="logo-sn waves-effect">
                 <div class=" text-center">
                     <a href="#" class="pl-0">
-                        <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="">
+                        <img src="https://updates.eveonline.com/assets/img/Logo_Eve_Online_on_Black.jpg" class="" alt="logo img">
                     </a>
                 </div>
             </li>
@@ -79,12 +79,12 @@ echo '
             <li>
                 <ul class="collapsible collapsible-accordion">
                     <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>
-                        Submit blog<i class="fa fa-angle-down rotate-icon"></i></a>
+                        Personal<i class="fa fa-angle-down rotate-icon"></i></a>
                         <div class="collapsible-body">
                             <ul>
-                                <li><a href="#" class="waves-effect">Submit listing</a>
+                                <li><a href="#" class="waves-effect">Character Sheet</a>
                                 </li>
-                                <li><a href="#" class="waves-effect">Registration form</a>
+                                <li><a href="#" class="waves-effect">other 1</a>
                                 </li>
                             </ul>
                         </div>
