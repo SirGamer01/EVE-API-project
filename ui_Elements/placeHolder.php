@@ -36,8 +36,22 @@ echo '
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="interactions-tab-just" data-toggle="tab" href="#interactions-just" role="tab" aria-controls="interactions-just"
-                      aria-selected="false">Contact</a>
+                      aria-selected="false">Interactions</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="services-tab-just" data-toggle="tab" href="#services-just" role="tab" aria-controls="services-just"
+                      aria-selected="false">Pilot\'s-Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="skins-tab-just" data-toggle="tab" href="#skins-just" role="tab" aria-controls="skins-just"
+                      aria-selected="false">Skins</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="history-tab-just" data-toggle="tab" href="#history-just" role="tab" aria-controls="history-just"
+                      aria-selected="false">Skins</a>
+                  </li>
+
+
                 </ul>
                 <div class="tab-content card pt-5" id="myTabContentJust">
                 
@@ -52,6 +66,16 @@ echo '
                   <div class="tab-pane fade" id="interactions-just" role="tabpanel" aria-labelledby="interactions-tab-just">
                     <p>'.$page[2].'</p>
                   </div>
+                  
+                  <div class="tab-pane fade" id="services-just" role="tabpanel" aria-labelledby="services-tab-just">
+                    <p>'.$page[3].'</p>
+                  </div>
+                  <div class="tab-pane fade" id="skins-just" role="tabpanel" aria-labelledby="skins-tab-just">
+                    <p>'.$page[4].'</p>
+                  </div>     
+                  <div class="tab-pane fade" id="history-just" role="tabpanel" aria-labelledby="history-tab-just">
+                    <p>'.$page[5].'</p>
+                  </div>                                 
                     <!-- Tabs -->
             
               </div>
