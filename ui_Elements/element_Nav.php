@@ -1,7 +1,11 @@
 <?php
-generateNavigation();
+
 
 function generateNavigation(){
+    $html ="";
+    //todo page swapping
+    $html .= generatePlaceHolder();
+
     return <<<htmlPage
     <html lang="en">
     
@@ -149,10 +153,9 @@ function generateNavigation(){
         <!--Main Navigation-->
             <main>
                 <div class="container-fluid justify-content-center">
-                    ';
-                    require "placeHolder.php";
-            
-                    echo'
+                    <!--todo page swaping-->
+                    $html
+
                 </div>
             </main>
         </body>
